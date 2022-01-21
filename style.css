@@ -25,5 +25,42 @@ body{
 }
 .container{
     max-width: 327px;
-    margin:auto;
+    margin: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 78px;
+    padding-top: 10px;
+}
+#btn-mode{
+    display: flex;
+    /* Distribute items evenly
+    The first item is flush with the start,
+    the last is flush with the end */
+    justify-content: space-between; 
+    align-items: center;
+    width: 90px;
+    height: 38px;
+    letter-spacing: 2.5px;
+    color: var(--lm-text);
+    font-weight: bold;
+}
+#btn-mode:hover{
+    cursor: pointer;
+}
+.searchbar-container{
+    background-color: var(--lm-bg-content);
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: var(--lm-shadow-inactive);
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(assets/icon-search.svg);
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+    background-position-y: center;
 }
