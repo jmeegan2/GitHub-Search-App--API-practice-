@@ -1,1 +1,29 @@
-:
+:root{
+    --lm-bg: #F6F8FF;
+    --lm-bg-content: #FEFEFE;
+    --lm-text: #46679b;
+    --lm-text-alt: #2B3442;
+    --lm-shadow-active: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    --lm-shadow-inactive: 0px 16px 30px -10px rgba(0,0,0,0.2);
+    --lm-icon-bg: brightness(100%);
+
+    /* BTN */
+    --btn: #0079FF;
+    --btn-hover: #60ABFF;
+}
+
+/* all elements */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;       
+}
+body{
+    background-color: var(--lm-bg);
+    font-size: 13px;
+    color: var(--lm-text)
+}
+.container{
+    max-width: 327px;
+    margin:auto;
+}
