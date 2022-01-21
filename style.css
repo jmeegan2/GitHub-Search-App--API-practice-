@@ -208,3 +208,59 @@ body{
 .active{
     box-shadow: var(--lm-shadow-active);
 }
+@media screen and (min-width:768px){
+  body{
+      font-size: 15px;
+  }
+  .container{
+      max-width: 573px;
+  }
+  .header{
+      padding-top: 90px;
+  }
+  .profile-container{
+      margin-top: 24px;
+  }
+  .profile-content{
+      width: 493px;
+  }
+  #avatar{
+      width: 117px;
+      height: 117px;
+  }
+  .profile-info-wrapper{
+      min-height: 117px;
+      justify-content: center;
+      margin-left: 40px;
+  }
+  #name{
+      font-size: 26px;
+  }
+  #user{
+      font-size: 16px;
+  }
+  .profile-stats-wrapper{
+      padding-left: 40px;
+  }
+  .profile-stat{
+      text-align: start;
+      justify-content: center;
+      flex-grow: 1;
+  }
+  .stat-title{
+      font-size: 13px;
+  }
+  .stat-value{
+      font-size: 25px;
+      text-align: start;
+  }
+  .profile-bottom-wrapper{
+      flex-direction: row;
+      flex-flow: column wrap;
+      justify-content: space-between;
+      max-height: 63px;
+  }
+  #input{
+      
+  }
+}
