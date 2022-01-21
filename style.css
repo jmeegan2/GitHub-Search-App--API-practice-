@@ -109,3 +109,12 @@ body{
     margin-top: 26px;
     box-shadow: var(--lm-shadow-inactive)
 }
+.profile-content{
+    width: 280px;
+    height: 481px;
+    min-height: 517px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
