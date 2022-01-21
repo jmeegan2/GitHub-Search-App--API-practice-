@@ -118,3 +118,72 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
 }
+.profile-header{
+    display: flex;
+}
+#avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 90px;
+}
+.profile-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.profile-name h2{
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--lm-text-alt);
+}
+#user{
+    color: var(--btn);
+}
+.profile-info-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 70px;
+    margin-left: 20px;
+}
+#bio{
+    line-height: 25px;
+}
+.profile-stats-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--lm-bg);
+    border-radius: 10px;
+    text-align: center;
+}
+.profile-stat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 85px;
+}
+.stat-title{
+    font-size: 11px;
+}
+.stat-value{
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--lm-text-alt);
+}
+.profile-bottom-wrapper{
+    height: 127px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.profile-info{
+    display: flex;
+}
+.bottom-icons{
+    width: 20px;
+    filter: var(--lm-icon-bg)
+}
+.profile-info p{
+    margin-left: 14px;
+}
