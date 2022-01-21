@@ -187,3 +187,24 @@ body{
 .profile-info p{
     margin-left: 14px;
 }
+.error{
+    position: absolute;
+}
+#no-results{
+    position: relative;
+    color: red;
+    font-weight: bold;
+    left: 150px;
+}
+.dm-text{
+    color: var(--dm-text);
+}
+.dm-bg{
+    background-color: var(--dm-bg);
+}
+.dm-bg-sec{
+    background-color: var(--dm-bg-content);
+}
+.active{
+    box-shadow: var(--lm-shadow-active);
+}
