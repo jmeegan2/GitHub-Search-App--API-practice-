@@ -25,3 +25,31 @@ const twitter = get('twitter')
 const company = get('company')
 let darkMode = false;
 //buttons 
+btnsubmit.addEventListener('click', function(){
+    if (input.value !== ""){
+        getUserData(url+input.value);
+    }
+})
+input.addEventListener("keydown", function(e) {
+    if (!e) {
+        var e = window.event;
+    }
+    if (e.key == "Enter") {
+        if (input.value !== ""){
+            getUserData(url+input.value);
+        }
+    }
+}, false);
+input.addEventListener('input', function(){
+    noresults.style.display = "none"
+    profilecontainer.classList.remove('active')
+    searchbar.classList.add('active')
+})
+btnmode.addEventListener('click', function(){
+    if(darkMode == false){
+        darkModeProperties()
+    } else {
+        lightModeProperties()
+    }
+})
+//functions
